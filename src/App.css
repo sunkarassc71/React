@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.btn-primary{
+  color: white;
+  background-color: rgb(60, 105, 241);
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn-success{
+  color: white;
+  background-color: rgb(2, 144, 35);
+  padding: 10px;
+  border-radius: 5px;
+}

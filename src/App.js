@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Counter />
       <Message />
-      <Greet name='Srinivas Chowdary Sunkara' heroName='Fan Of Nandamuri'>This is Nandamuri adda <button>Jai Balayya</button></Greet>
-      <Welcome name='Srinivas Chowdary Sunkara' heroName='Fan Of Nandamuri'><button>Jai NTR</button></Welcome>
+      {/* <Greet name='Srinivas Chowdary Sunkara' heroName='Fan Of Nandamuri'>This is Nandamuri adda <button>Jai Balayya</button></Greet>
+      <Welcome name='Srinivas Chowdary Sunkara' heroName='Fan Of Nandamuri'><button>Jai NTR</button></Welcome> */}
     </div>
   );
 }
