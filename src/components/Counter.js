@@ -9,9 +9,13 @@ class Counter extends Component{
     }
 
     increment(){
-        this.setState({
-            counter:this.state.counter+1
-        })
+        // this.setState({
+        //     counter:this.state.counter+1
+        // },() => {console.log("callBack value:"+this.state.counter)}) // use call back function
+        // console.log(this.state.counter)
+        this.setState((prevState)=>({
+            counter:prevState.counter+1  // use prevState to render
+        }))
     }
 
     render(){
