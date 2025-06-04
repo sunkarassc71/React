@@ -41,11 +41,15 @@ class LifeCycleA extends Component {
 
 
   render() {
+    const style ={
+      color:'blue',
+      marginLeft: '5px'
+    }
     console.log('LifeCycleA Render');
     return (
       <div>
         LifeCycle A
-        <button onClick={this.stateChange}>Change State</button>
+        <button style={style} onClick={this.stateChange}>Change State</button>
         <LifeCycleB></LifeCycleB>
       </div>
     )
